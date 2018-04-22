@@ -1,5 +1,5 @@
 function createNewString(str){
-    return str + ".js";
+    return `${str}.js`;
 
 }
-createNewString("");
+console.log(createNewString(''));

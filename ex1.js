@@ -1,11 +1,10 @@
-function squareArea(height, width) {
-    this.height = height;
-    this.width = width;
-    return height * width;
+function squareArea(side) {
+    return side * side;
 }
-squareArea(5, 10);
 
-function cubeArea() {
-    return this.height * this.width * 6;
+function cubeArea(side) {
+    return squareArea(side) * 6
 }
-cubeArea();
+
+console.log(squareArea(5));
+console.log(cubeArea(5));
