@@ -5,5 +5,4 @@ function isPol(str) {
             return false;
             return true;
 }
-
 console.log(isPol("bobob"));
