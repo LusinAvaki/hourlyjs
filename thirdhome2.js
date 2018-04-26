@@ -4,7 +4,7 @@ function stringChanger(str) {
         str.toLowerCase();
         let compareIndex = i;
         let replaceIndex = 0;
-            if (compareIndex = replaceIndex) {
+            if (compareIndex === replaceIndex) {
                 str.replace(compareIndex, '*');
                  } else {
             return stringChanger();
